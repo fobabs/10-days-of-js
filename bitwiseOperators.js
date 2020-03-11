@@ -9,6 +9,3 @@ const getMaxLessThanK = (n, k) => {
   }
   return max;
 }
-
-console.log(getMaxLessThanK(5, 2));
-console.log(getMaxLessThanK(8, 5));

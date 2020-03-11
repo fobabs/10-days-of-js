@@ -13,4 +13,3 @@ function regexVar(str) {
    */
   return re;
 }
-console.log(regexVar('abcde'));

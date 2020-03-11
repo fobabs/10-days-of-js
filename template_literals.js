@@ -15,4 +15,3 @@ function sides(literals, ...expressions) {
   let s2 = (P - root) / 4;
   return [s1, s2].sort();
 }
-console.log(sides("literals", ...[140, 48]));

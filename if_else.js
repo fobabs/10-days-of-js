@@ -16,4 +16,3 @@ function getGrade(score) {
   }
   return grade;
 }
-console.log(getGrade(20));

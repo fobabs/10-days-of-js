@@ -16,4 +16,3 @@ function vowelsAndConsonants(s) {
 		}
 	}
 }
-vowelsAndConsonants("emmanuel");

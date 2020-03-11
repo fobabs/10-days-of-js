@@ -13,5 +13,3 @@ function getDayName(dateString) {
   dayName = dayNames[new Date(dateString).getDay()];
   return dayName;
 }
-
-console.log(getDayName(12-12-2015));

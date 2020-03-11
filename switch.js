@@ -28,7 +28,6 @@ function getLetter(s) {
   }
   return letter;
 }
-console.log(getLetter("bdfgt"));
 
 // OR
 
@@ -50,4 +49,3 @@ function getLeter(s) {
   }
   return letter;
 }
-console.log(getLeter("nrts"));

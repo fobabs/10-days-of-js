@@ -4,7 +4,7 @@
  * Parameter(s):
  * objects: an array of objects with integer properties 'x' and 'y'
  */
-console.time('for loop');
+// Using for loop method
 function getCount(objects) {
   let count = 0;
   for (let i = 0; i < objects.length; i++) {
@@ -13,13 +13,8 @@ function getCount(objects) {
   }
   return count;
 }
-console.log(getCount([{ x: 1, y: 1 }, { x: 2, y: 3 }, { x: 3, y: 3 }, { x: 3, y: 4 }, { x: 4, y: 5 }]));
-console.timeEnd('for loop');
 
-// .filter method
-console.time('filter');
+// Using .filter method
 function getCountX(objects) {
   return objects.filter(object => object.x === object.y).length;
 }
-console.log(getCountX([{ x: 1, y: 1 }, { x: 2, y: 3 }, { x: 3, y: 3 }, { x: 3, y: 4 }, { x: 4, y: 5 }]));
-console.timeEnd('filter');

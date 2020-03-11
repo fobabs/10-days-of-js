@@ -4,15 +4,12 @@
  * Parameter(s):
  * nums: An array of numbers.
  */
-console.time('map');
+// map method
 function modifyArray(nums) {
   return nums.map(n => n % 2 ? n * 3 : n * 2); 
 }
-console.log(modifyArray([1, 2, 3, 4, 5]));
-console.timeEnd('map');
 
-// for loop
-console.time('for loop');
+// for loop method
 function modifyArrayX(nums) {
   for (i = 0; i < nums.length; i++) {
     if (nums[i] % 2 === 0)
@@ -22,5 +19,3 @@ function modifyArrayX(nums) {
   }
   return nums;
 }
-console.log(modifyArray([1, 2, 3, 4, 5]));
-console.timeEnd('for loop');

@@ -13,5 +13,3 @@ function reverseString(s) {
     return s;
   }
 }
-console.log(reverseString("1234"));
-console.log(reverseString(Number("1234")));

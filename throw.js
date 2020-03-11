@@ -12,4 +12,3 @@ function isPositive(a) {
 	else 
 		throw new Error("Negative Error");
 }
-console.log(isPositive(5));
