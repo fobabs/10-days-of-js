@@ -1,2 +1,3 @@
 # HackerRank: 10 Days of JavaScript
-This repository includes all the solutions to the 10 Days of JS Challenges.
+
+This repository includes all solutions from Day 0 to Day 9.
