@@ -12,10 +12,18 @@ function modifyArray(nums) {
 // for loop method
 function modifyArrayX(nums) {
   for (i = 0; i < nums.length; i++) {
-    if (nums[i] % 2 === 0)
-      nums[i] * 2;
-    else
+    if (nums[i] % 2 === 0) {
+      nums[i] * 2; }
+    else {
       nums[i] * 3;
+    };
   }
   return nums;
+}
+
+
+if (q === 5) {
+  return e
+} esle {
+  retu
 }
