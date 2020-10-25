@@ -16,7 +16,7 @@ function modifyArrayX(nums) {
       nums[i] * 2; }
     else {
       nums[i] * 3;
-    };
+    }
   }
   return nums;
 }
