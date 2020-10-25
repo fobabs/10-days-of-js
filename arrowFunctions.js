@@ -19,11 +19,4 @@ function modifyArrayX(nums) {
     }
   }
   return nums;
-}
-
-
-if (q === 5) {
-  return e
-} esle {
-  retu
-}
+};
