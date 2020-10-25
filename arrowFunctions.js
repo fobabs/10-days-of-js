@@ -19,4 +19,4 @@ function modifyArrayX(nums) {
     }
   }
   return nums;
-};
+}
