@@ -4,6 +4,8 @@
  * Parameter(s):
  * nums: An array of numbers.
  */
+
+ var nums = [1, 2, 3, 4, 5];
 // map method
 function modifyArray(nums) {
   return nums.map(n => n % 2 ? n * 3 : n * 2); 
@@ -13,9 +15,15 @@ function modifyArray(nums) {
 function modifyArrayX(nums) {
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] % 2 === 0)
-      nums[i] * 2;
+     nums[i] *= 2;
     else
-      nums[i] * 3;
+      nums[i] *= 3;
   }
-  return nums;
+   return nums;
 }
+
+
+
+
+var p = modifyArray(nums);
+console.log(p);
