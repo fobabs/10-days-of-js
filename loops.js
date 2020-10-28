@@ -37,7 +37,3 @@ function vowelsAndConsonants1(s) {
         }
     }
 }
-
-
-
-vowelsAndConsonants1(s);
