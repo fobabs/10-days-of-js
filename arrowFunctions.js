@@ -6,9 +6,14 @@
  */
 
 // map method
+
+console.time('map');
+
 function modifyArray(nums) {
-  return nums.map(n => n % 2 ? n * 3 : n * 2); 
+    return nums.map(n => n % 2 ? n * 3 : n * 2);
 }
+console.log(modifyArray([1, 2, 3, 4, 5]))
+console.timeEnd('map');
 
 // for loop method
 function modifyArrayX(nums) {
@@ -20,3 +25,4 @@ for (let i = 0; i < nums.length; i++) {
 }
 return nums;
 };
+
