@@ -49,3 +49,35 @@ function getLeter(s) {
   }
   return letter;
 }
+
+
+// ES6 for of / if Method
+function getLetter1(s) {
+  let letter;
+  let sample = ['a', 'e', 'i', 'o', 'u', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm' ];
+  
+  // write your code here
+  for (const cur of sample.slice(0, 5)) {
+    if (s[0] == cur ) 
+      letter = "A";
+      } 
+
+
+  for (const cur of sample.slice(5, 10)) {
+    if (s[0] == cur)
+      letter = "B";
+  }
+
+
+  for (const cur of sample.slice(10)) {
+    if (s[0] == cur)
+      letter = "C";
+  }
+
+  if (letter == undefined){
+  letter = 'D';
+  }
+
+  return letter;
+  
+};
