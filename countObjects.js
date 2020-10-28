@@ -15,7 +15,7 @@ function getCount(objects) {
 }
 
 // Using .filter method
-function getCountX(objects) {
+function getCount(objects) {
   return objects.filter(object => object.x === object.y).length;
 }
 

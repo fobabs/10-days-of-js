@@ -15,7 +15,7 @@ function factorial(n) {
 }
 
 // Using the while loop method
-function factorialX(n) {
+function factorial(n) {
   let result = n;
   if (n == 0 || n == 1)
     return 1;
@@ -28,7 +28,7 @@ function factorialX(n) {
 
 // Using the for loop method
 console.time('for loop');
-function factorialY(n) {
+function factorial(n) {
   if (n == 0 || n == 1)
     return 1;
   for (let i = n - 1; i >= 1; i--) {
