@@ -13,7 +13,7 @@ function getSecondLargest(nums) {
 }
 
 // while loop
-function getSecondLargestE(nums) {
+function getSecondLargest(nums) {
   // getting the maximum value
   let max = Math.max.apply(null, nums);
   let maxI = nums.indexOf(max);
@@ -28,7 +28,7 @@ function getSecondLargestE(nums) {
 }
 
 //for loop
-function getSecondLargestES5(nums) {
+function getSecondLargest(nums) {
   let max = Math.max.apply(null, nums);
   let secondLargestNum;
   let removeLargestNum = [];
