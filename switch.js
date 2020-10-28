@@ -31,7 +31,7 @@ function getLetter(s) {
 
 // OR
 
-function getLeter(s) {
+function getLetter(s) {
   let letter;
   // write your code here
   switch (s.charAt(0)) {
