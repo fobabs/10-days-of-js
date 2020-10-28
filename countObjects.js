@@ -18,3 +18,15 @@ function getCount(objects) {
 function getCountX(objects) {
   return objects.filter(object => object.x === object.y).length;
 }
+
+
+
+// using for of method
+function getCount1(objects) {
+  let count = 0;
+  for (const cur of objects) {
+    if (cur.x === cur.y)
+      count++;
+  }
+  return count;
+}
