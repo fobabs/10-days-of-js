@@ -11,4 +11,3 @@ This repository includes all solutions from Day 0 to Day 9.
 ## Want to contribute?
 
 * If you want to help us improve, take a minute to read the [Contribution Guidelines](/CONTRIBUTING.md) first.
-* If you find a problem with a specific code, please [open an issue](https://github.com/fobabs/10-Days-of-JS/issues/new).
