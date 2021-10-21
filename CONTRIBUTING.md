@@ -25,7 +25,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 
 ## Report bugs using Github's [issues](https://github.com/fobabs/10-Days-of-JS/issues)
 
-We use GitHub issues to track public bugs. Report a bug by *opening a new issue*; it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [*opening a new issue*](https://github.com/fobabs/10-Days-of-JS/issues/new); it's that easy!
 
 ## Write bug reports with detail, background, and sample code
 
